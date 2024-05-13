@@ -1,6 +1,6 @@
 
 
-# Open GL (feeGlut) install in Windows With Visual Studio Code
+# Open GL (freeGlut) install in Windows With Visual Studio Code
 
 
 YouTube Tutorial Guide: Here
