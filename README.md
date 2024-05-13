@@ -1,4 +1,5 @@
 
+
 # Open GL (feeGlut) install in Windows With Visual Studio Code
 
 
@@ -74,3 +75,50 @@ VSCODE Configuration
     "code-runner.executorMap": {
             "cpp": "cd $dir && g++ $env:MSYS2/mingw64/include/glad/glad.c (Get-ChildItem -Path . -Filter *.cpp -Recurse).FullName -o main -lopengl32 -lfreeglut -lglu32 -lglew32 -lglfw3 -lgdi32 -lmingw32 && ./main"
     },
+
+## Setup in Linux (Any Debian/Ubuntu/Kali) | Just OneClick
+
+1. Open your terminal install those package: 
+
+    `sudo apt install freeglut3-dev mesa-common-dev libxi-dev`
+     
+    This installs FreeGLUT, OpenGL development libraries, and XInput2 headers.
+
+2. Remove Windows Header:
+
+   - Remove the line #include<windows.h> from your code. It's not needed for Linux.
+
+3. Compile and Run:
+
+   - Save the code as a .cpp file (e.g., myprogram.cpp).
+   - Compile it using the following command:
+
+     `g++ myprogram.cpp -o myprogram -lglut -lGLU -lGL`
+     
+
+   - Run the executable:
+     `./myprogram`
+
+## Setup in Linux (Arch Linux/Any Arch Based Linux) | Just OneClick
+1. Install those package
+
+`sudo pacman -S freeglut-devel
+sudo pacman -S freeglut
+sudo pacman -S glu`
+
+  This installs FreeGLUT, OpenGL development libraries, and XInput2 headers.
+
+2. Remove Windows Header:
+
+   - Remove the line #include<windows.h> from your code. It's not needed for Linux.
+
+2. Compile and Run:
+
+   - Save the code as a .cpp file (e.g., myprogram.cpp).
+   - Compile it using the following command:
+
+     `g++ myprogram.cpp -o myprogram -lglut -lGLU -lGL`
+     
+
+   - Run the executable:
+     `./myprogram`
