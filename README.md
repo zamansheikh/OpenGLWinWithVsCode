@@ -3,7 +3,7 @@
 # Open GL (freeGLUT) install in Windows With Visual Studio Code
 
 
-YouTube Tutorial Guide: Here
+YouTube Tutorial Guide: [Here](https://www.youtube.com/watch?v=sdTtUm3fay4&ab_channel=ZamanSheikh)
 
 Step:
 
