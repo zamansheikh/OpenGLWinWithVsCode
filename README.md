@@ -1,9 +1,8 @@
-**
 
 # Open GL (feeGlut) install in Windows With Visual Studio Code
 
-**
-YouTube Tutorial Guide: 
+
+YouTube Tutorial Guide: Here
 
 Step:
 
@@ -57,15 +56,15 @@ C/C++ Include path:(Settings)
 
 
 
-Create Example File main.cpp
+Create Example File minar.cpp [You can use any name]
 
 //Write your openGL code
 
 
 
-run in terminal: `g++ minar.cpp -o minar -lopengl32 -lfreeglut -lglu32 -lglew32 -lglfw3 -lgdi32 -lmingw32`
+Run in terminal: `g++ minar.cpp -o minar -lopengl32 -lfreeglut -lglu32 -lglew32 -lglfw3 -lgdi32 -lmingw32`
 
-execute in terminal: ./main
+Execute in terminal: `./minar`
 
 
 Additional: 
